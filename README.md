@@ -6,6 +6,8 @@ Congrats! You just saved yourself hours of work by bootstrapping this project wi
 
 > If you’re new to TypeScript and React, checkout [this handy cheatsheet](https://github.com/sw-yx/react-typescript-cheatsheet/)
 
+> create-react-app은 앱을 만드는 용이고, tsdx는 리액트 컴포넌트 라이브러리를 만들기 위한 용이다(npm으로 배포가 가능한). 이 프로젝트는 라이브러리를 만드는 프로젝트이다.
+
 ## Commands
 
 TSDX scaffolds your new library inside `/src`, and also sets up a [Parcel-based](https://parceljs.org) playground for it inside `/example`.
