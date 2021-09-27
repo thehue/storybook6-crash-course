@@ -181,3 +181,23 @@ Change the `alias` to point to where those packages are actually installed. This
 ```
 
 An alternative to fixing this problem would be to remove aliases altogether and define the dependencies referenced as aliases as dev dependencies instead. [However, that might cause other problems.](https://github.com/palmerhq/tsdx/issues/64)
+
+## 유용한 Addon - 웹접근성 애드온
+
+### Accessibility Addon
+
+Test Component compliance with web accessibility standards
+
+```
+yarn add -D @storybook/addon-a11y
+```
+
+```main.js
+  addons: [
+    ...
+    '@storybook/addon-a11y',
+  ]
+```
+
+![웹접근성_애드온_적용후](https://user-images.githubusercontent.com/45552388/134913260-b75f816f-7c78-490d-b76f-f3103e7fee12.png)
+위와 같이 웹 접근성을 위반한 경우에 대해서 보여준다.
