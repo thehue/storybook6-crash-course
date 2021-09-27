@@ -2,10 +2,10 @@ import React, { HTMLAttributes, ReactNode } from 'react';
 
 export interface Props extends HTMLAttributes<HTMLButtonElement> {
   children: ReactNode;
-  variant: 'Primary' | 'Secondary';
+  variant?: 'Primary' | 'Secondary';
 }
 
-export const Button = ({ children, variant, ...props }: Props) => {
+export const Button = ({ children, variant = 'Primary', ...props }: Props) => {
   return (
     <button
       {...props}
