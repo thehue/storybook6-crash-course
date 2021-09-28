@@ -201,3 +201,20 @@ yarn add -D @storybook/addon-a11y
 
 ![웹접근성_애드온_적용후](https://user-images.githubusercontent.com/45552388/134913260-b75f816f-7c78-490d-b76f-f3103e7fee12.png)
 위와 같이 웹 접근성을 위반한 경우에 대해서 보여준다.
+
+## tsdx NPM으로 publish 하기
+
+```
+yarn build
+```
+
+dist폴더에 js파일로 컴파일 된것을 볼 수 있다.
+
+NPM으로 publish 가능하게 컴파일됨.
+
+```
+yarn build-storybook
+```
+
+storybook-static폴더에 storybook이 index.html 형태로 컴파일 된다.
+해당 html을 배포하면 내 스토리북을 html파일로 접근 가능해진다.
